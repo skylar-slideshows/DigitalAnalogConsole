@@ -6714,6 +6714,19 @@
 		)
 	)
 	(arc
+		(start 165.1 138.43)
+		(mid 168.538 137.7499)
+		(end 171.45 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "03dc2761-d1f6-4a86-b9c9-cef3323e4faa")
+	)
+	(arc
 		(start 76.2004 90.1851)
 		(mid 114.7355 105.3467)
 		(end 130.81 143.51)
@@ -6865,6 +6878,19 @@
 			(type none)
 		)
 		(uuid "ab4cab55-fa94-42e8-ad89-c6fb7ae9969e")
+	)
+	(arc
+		(start 165.1 143.51)
+		(mid 168.012 141.5599)
+		(end 171.45 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ca65eaa6-3738-4ed9-b5a1-6edbca371481")
 	)
 	(arc
 		(start 171.45 54.61)
@@ -7209,12 +7235,6 @@
 		(uuid "2bfadfad-7b46-4da2-821e-afa7fe606444")
 	)
 	(junction
-		(at 184.15 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ecb8a13-9196-47b2-b75b-27ca97ccad92")
-	)
-	(junction
 		(at 119.38 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7333,6 +7353,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fac3279-a707-4e5c-9ee8-6f6ee1c56ca1")
+	)
+	(junction
+		(at 184.15 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "664042b5-e7f0-4d45-81ee-e182b5acf3d3")
 	)
 	(junction
 		(at 295.91 100.33)
@@ -8236,6 +8262,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 139.7) (xy 184.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae7b9cb-65ff-4fcd-b2c9-a5642ce134b4")
+	)
+	(wire
+		(pts
 			(xy 290.83 133.35) (xy 293.37 133.35)
 		)
 		(stroke
@@ -8816,6 +8852,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 143.51) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5abfd3-880e-485b-a56a-2ec729c7b2c7")
+	)
+	(wire
+		(pts
 			(xy 219.71 69.85) (xy 245.11 69.85)
 		)
 		(stroke
@@ -9016,7 +9062,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 147.32) (xy 184.15 138.43)
+			(xy 184.15 147.32) (xy 184.15 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9806,16 +9852,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 143.51) (xy 151.13 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf24c32-c757-4bf6-a4c2-a69f52a658da")
-	)
-	(wire
-		(pts
 			(xy 283.21 44.45) (xy 295.91 44.45)
 		)
 		(stroke
@@ -10256,16 +10292,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 138.43) (xy 184.15 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cec44523-6781-426b-95b7-ed9819ba0023")
-	)
-	(wire
-		(pts
 			(xy 295.91 90.17) (xy 295.91 100.33)
 		)
 		(stroke
@@ -10346,6 +10372,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 138.43) (xy 165.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49262bc-31b8-444d-9504-766c088b837b")
+	)
+	(wire
+		(pts
 			(xy 351.79 109.22) (xy 351.79 149.86)
 		)
 		(stroke
@@ -10383,6 +10419,16 @@
 			(type default)
 		)
 		(uuid "d60a417e-4c0b-4f9d-aa96-1b6a567e7efa")
+	)
+	(wire
+		(pts
+			(xy 184.15 139.7) (xy 184.15 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67dbb2d-15ac-43eb-99fa-945cbadf5294")
 	)
 	(wire
 		(pts
@@ -10626,7 +10672,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 156.21) (xy 176.53 143.51)
+			(xy 176.53 142.24) (xy 176.53 156.21)
 		)
 		(stroke
 			(width 0)
@@ -11947,6 +11993,110 @@
 			(project "PSU"
 				(path "/fa85d71b-1ddc-4df3-8621-90a970c44e66"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 171.45 139.7 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "069b8758-4c94-4033-a566-69bcda8281c9")
+		(property "Reference" "J10"
+			(at 168.91 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMPS_IN"
+			(at 168.91 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 171.45 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2325533.pdf"
+			(at 171.45 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 171.45 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5443539"
+			(at 171.45 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 171.45 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e603410f-3557-429e-a550-027383ad0a5d")
+		)
+		(pin "1"
+			(uuid "82b5e9a9-0c41-44ba-8774-7945c28c9e80")
+		)
+		(instances
+			(project "PSU"
+				(path "/fa85d71b-1ddc-4df3-8621-90a970c44e66"
+					(reference "J10")
 					(unit 1)
 				)
 			)
