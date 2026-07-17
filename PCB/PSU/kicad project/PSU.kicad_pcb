@@ -50096,7 +50096,7 @@
 			)
 		)
 		(property "Value" "MountingHole_3.2mm_M3"
-			(at 0 4.15 0)
+			(at -0.2 -3.1 0)
 			(layer "F.Fab")
 			(uuid "64004785-25d9-43dd-bc7f-5e696b095809")
 			(effects
@@ -62147,7 +62147,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "3V\n\n-18V\n\nGND\n\n+18V\n\n\n"
+	(gr_text "3V3 Ref\n\n-18V\n\nGND\n\n+18V\n\n\n"
 		(at 326.4 147.2 270)
 		(layer "F.SilkS")
 		(uuid "254d7521-a527-4b24-8ff4-21496965683d")
