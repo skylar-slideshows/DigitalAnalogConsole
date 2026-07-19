@@ -3945,6 +3945,306 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mornsun_URB_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U5"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3v3 Mornsun URB2403LD-20WR3"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER_JTDxxxxxxx_THT"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.xppower.com/portals/0/pdfs/SF_JTD20.pdf"
+				(at -3.048 25.908 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Isolated 20W 4:1 input DC/DC converter module, 9-36V input voltage, ±5V output voltage, DIP"
+				(at -2.413 25.908 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PURC_LINK" "https://www.digikey.com/en/products/detail/mornsun-america-llc/URB4803LD-20WR3/16348376?s=N4IgTCBcDaILIHsBOA7AzgVxQAgKoCUAhAFgA4AGAZgBkARAWjHIHV9KQBdAXyA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "isolated isolation dc-dc converter step-down dual"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Converter*DCDC*XP?POWER*JTDxxxxxxx*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Mornsun_URB_1_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Mornsun_URB_1_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "Enable"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "Trim"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Motor:Fan"
 			(pin_names
 				(offset 0)
@@ -4506,8 +4806,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -8.89 8.89 0)
+			(property "Reference" "U7"
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4516,8 +4816,8 @@
 					)
 				)
 			)
-			(property "Value" "Mornsun_URB"
-				(at 8.89 8.89 0)
+			(property "Value" "12v Mornsun URB2412LD-50WR3"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4526,7 +4826,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER_JTDxxxxxxx_THT"
+			(property "Footprint" "My Footprints:urb 50w dc-dc"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4550,6 +4850,28 @@
 			)
 			(property "Description" "Isolated 20W 4:1 input DC/DC converter module, 9-36V input voltage, ±5V output voltage, DIP"
 				(at -2.413 25.908 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PURC_LINK" "https://www.digikey.com/en/products/detail/mornsun-america-llc/URB2412LD-30WR3/16348068?s=N4IgTCBcDaILIHsBOA7AzgVxQAgKoCUAhMAFgEYwAZAEQFoBmABgHV96QBdAXyA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4688,7 +5010,7 @@
 				(pin power_in line
 					(at -12.7 0 0)
 					(length 2.54)
-					(name "Vin"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4706,7 +5028,7 @@
 				(pin power_in line
 					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "GND"
+					(name "Vin"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4742,7 +5064,7 @@
 				(pin power_out line
 					(at 12.7 0 180)
 					(length 2.54)
-					(name "0V"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6941,7 +7263,7 @@
 		)
 		(uuid "04bbac63-6b29-4e87-b385-302b69fcb37f")
 	)
-	(text "COMPONENT NOTES:\n\nR1, R2, R3, (discharges big filter caps) use at least 1W at least Resistors.\nFor all other resistors, use 1/4W.\nAll resistors are metal film, 1% or better tolerance.\n\nAll screw terminals (J2, J3, J4. J5, J9, J10) are the Phoenix Contact MKDS 1,5 series, 5.08mm pin pitch.\nPin headers (J2, J9, J10) are standard 2.54mm pin pitch male pin headers.\n\nRegulators (U1, U2, U3) are all TO-220 3 pin package.\nHeatsinks used are Same Sky Devices HSE-B20254-035H-01."
+	(text "COMPONENT NOTES:\n\nR1, R2, R3, (discharges big filter caps) use at least 1W at least Resistors.\nFor all other resistors, use 1/4W.\nAll resistors are metal film, 1% or better tolerance.\n\nAll screw terminals (J2, J3, J4. J5, J9, J10) are the Phoenix Contact MKDS 1,5 series, 5.08mm pin pitch.\nPin headers (J6, J7, J8) are standard 2.54mm pin pitch male pin headers.\n\nRegulators (U1, U2, U3) are all TO-220 3 pin package.\nHeatsinks used are Same Sky Devices HSE-B20254-035H-01."
 		(exclude_from_sim no)
 		(at 39.37 166.37 0)
 		(effects
@@ -6992,7 +7314,7 @@
 		)
 		(uuid "73e85146-fff8-4272-9cbc-388540025150")
 	)
-	(text "revision 0"
+	(text "revision 0.1"
 		(exclude_from_sim no)
 		(at 401.066 280.416 0)
 		(effects
@@ -7163,12 +7485,6 @@
 		(uuid "09a0da9d-373b-4dcb-9694-d0a83fe98b20")
 	)
 	(junction
-		(at 294.64 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f95bc06-f467-466d-9b93-64068b2777fd")
-	)
-	(junction
 		(at 219.71 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7301,12 +7617,6 @@
 		(uuid "48d02cce-3104-4e53-b1c4-d56afe968506")
 	)
 	(junction
-		(at 284.48 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d060fed-5d84-4491-a34c-cad9ec58b22d")
-	)
-	(junction
 		(at 308.61 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7349,10 +7659,16 @@
 		(uuid "5dcdb633-4255-4573-bece-fc5b00ca5127")
 	)
 	(junction
-		(at 214.63 138.43)
+		(at 294.64 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5fac3279-a707-4e5c-9ee8-6f6ee1c56ca1")
+		(uuid "6237c4fe-24ff-4621-906c-6d21d52959bf")
+	)
+	(junction
+		(at 284.48 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62bf3bd7-18f9-4f54-b560-aedc3ce06441")
 	)
 	(junction
 		(at 184.15 139.7)
@@ -7481,6 +7797,12 @@
 		(uuid "909bc2a3-8fbd-422b-bac0-716390e906ea")
 	)
 	(junction
+		(at 284.48 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90e1aaba-8026-4797-861d-0daad083082c")
+	)
+	(junction
 		(at 311.15 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7503,12 +7825,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99692bb5-bc1d-4d9d-970b-84498b8f98c9")
-	)
-	(junction
-		(at 254 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "999f9357-8ad1-4557-9f89-7ed9331e8cd6")
 	)
 	(junction
 		(at 226.06 166.37)
@@ -7565,16 +7881,16 @@
 		(uuid "ac0b1eb3-6d47-464c-b6e8-f540af269213")
 	)
 	(junction
-		(at 284.48 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad277d98-a389-4ca1-b9c7-930d5b6272f4")
-	)
-	(junction
 		(at 194.31 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad778282-8515-4a7b-83a6-1220c5ed4dfc")
+	)
+	(junction
+		(at 252.73 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ada60357-fc76-4608-af00-3336611aae3f")
 	)
 	(junction
 		(at 295.91 62.23)
@@ -7593,6 +7909,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4588656-77f3-46ea-9be3-8ce4cd0bf678")
+	)
+	(junction
+		(at 252.73 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b79e9310-006f-4dc3-a0bd-0bd5682ff003")
 	)
 	(junction
 		(at 196.85 50.8)
@@ -7623,12 +7945,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c71f95a4-0d7e-4e8b-adb0-0f3d70f20c12")
-	)
-	(junction
-		(at 254 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c813c6b0-2b82-4399-9c68-ea31ac9d9160")
 	)
 	(junction
 		(at 214.63 151.13)
@@ -7725,6 +8041,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2f28c35-4cff-4b52-b725-92299cc7fa1a")
+	)
+	(junction
+		(at 214.63 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5228b16-3be6-45b1-96ec-bdff1901f9f5")
 	)
 	(junction
 		(at 96.52 72.39)
@@ -7919,6 +8241,16 @@
 			(type default)
 		)
 		(uuid "0af8bca8-12e9-4b43-a86a-aecf81dc4e0c")
+	)
+	(wire
+		(pts
+			(xy 252.73 171.45) (xy 252.73 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b38760f-6b55-4910-9864-33e45f4340ef")
 	)
 	(wire
 		(pts
@@ -8122,16 +8454,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 176.53) (xy 256.54 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f507cb7-7332-4f94-b6ed-fb1d601596f0")
-	)
-	(wire
-		(pts
 			(xy 166.37 54.61) (xy 168.91 54.61)
 		)
 		(stroke
@@ -8139,6 +8461,16 @@
 			(type default)
 		)
 		(uuid "1fa4055c-aaac-4aab-bb21-88ab22d22c7d")
+	)
+	(wire
+		(pts
+			(xy 214.63 176.53) (xy 256.54 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2069e04e-807c-4fc2-a797-dc39da664730")
 	)
 	(wire
 		(pts
@@ -8159,6 +8491,16 @@
 			(type default)
 		)
 		(uuid "23e35cbf-c430-44c3-a28e-00e400a02c3c")
+	)
+	(wire
+		(pts
+			(xy 256.54 171.45) (xy 252.73 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244da210-c038-49cc-a92b-dc945052e7b0")
 	)
 	(wire
 		(pts
@@ -8252,6 +8594,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 171.45) (xy 252.73 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cb3e7a-e8d0-4287-be39-47bc43546881")
+	)
+	(wire
+		(pts
 			(xy 270.51 80.01) (xy 279.4 80.01)
 		)
 		(stroke
@@ -8269,6 +8621,16 @@
 			(type default)
 		)
 		(uuid "2ae7b9cb-65ff-4fcd-b2c9-a5642ce134b4")
+	)
+	(wire
+		(pts
+			(xy 284.48 171.45) (xy 284.48 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c738225-f660-48da-a381-5d0ed21ff455")
 	)
 	(wire
 		(pts
@@ -8322,26 +8684,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 171.45) (xy 214.63 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3171e536-5de3-4691-b67e-a655f19880a4")
-	)
-	(wire
-		(pts
-			(xy 214.63 138.43) (xy 256.54 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31f38ee8-de16-4500-9a19-12800e69a414")
-	)
-	(wire
-		(pts
 			(xy 303.53 149.86) (xy 303.53 151.13)
 		)
 		(stroke
@@ -8369,16 +8711,6 @@
 			(type default)
 		)
 		(uuid "34346f82-2597-4562-b497-28197d8d84c6")
-	)
-	(wire
-		(pts
-			(xy 214.63 151.13) (xy 214.63 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35fe13a4-cc13-4f82-bc85-04ab7f4dcff6")
 	)
 	(wire
 		(pts
@@ -8562,6 +8894,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 138.43) (xy 256.54 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44579835-db85-4943-b149-1de1505b1882")
+	)
+	(wire
+		(pts
 			(xy 308.61 100.33) (xy 308.61 105.41)
 		)
 		(stroke
@@ -8612,16 +8954,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 143.51) (xy 256.54 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4872f4c8-47b1-4cde-8d03-ab6b5cd57658")
-	)
-	(wire
-		(pts
 			(xy 195.58 50.8) (xy 196.85 50.8)
 		)
 		(stroke
@@ -8659,6 +8991,16 @@
 			(type default)
 		)
 		(uuid "4c9e78eb-bcff-4ce4-8e8f-5baad109927a")
+	)
+	(wire
+		(pts
+			(xy 214.63 138.43) (xy 214.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbacd8b-f014-4567-b5f0-eedf15af358a")
 	)
 	(wire
 		(pts
@@ -8759,16 +9101,6 @@
 			(type dash)
 		)
 		(uuid "566e78e1-3eb6-4460-9e5e-d3870b544b1f")
-	)
-	(wire
-		(pts
-			(xy 254 191.77) (xy 284.48 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57f08f8c-e043-49e3-ab11-3f947f7b63be")
 	)
 	(wire
 		(pts
@@ -9002,16 +9334,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 138.43) (xy 281.94 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68988ff0-e4bf-40a7-a3b0-683821654222")
-	)
-	(wire
-		(pts
 			(xy 119.38 48.26) (xy 119.38 109.22)
 		)
 		(stroke
@@ -9019,6 +9341,16 @@
 			(type default)
 		)
 		(uuid "6a5af325-02b0-44b7-a6c2-47c933c5bd64")
+	)
+	(wire
+		(pts
+			(xy 281.94 171.45) (xy 284.48 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c375463-f80c-4635-8041-7c44598e6423")
 	)
 	(wire
 		(pts
@@ -9069,6 +9401,16 @@
 			(type default)
 		)
 		(uuid "6f606593-2d33-4e4b-a530-81e1858b2e68")
+	)
+	(wire
+		(pts
+			(xy 252.73 191.77) (xy 284.48 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cb8154-72b4-4f96-a624-e307478b6a71")
 	)
 	(wire
 		(pts
@@ -9169,6 +9511,16 @@
 			(type default)
 		)
 		(uuid "78c1eede-4935-4cf6-9441-280c1dc1fda3")
+	)
+	(wire
+		(pts
+			(xy 281.94 143.51) (xy 284.48 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794c71c7-a098-4d0b-82fa-fece4d90d198")
 	)
 	(wire
 		(pts
@@ -9279,16 +9631,6 @@
 			(type default)
 		)
 		(uuid "80c7f12b-c321-42d2-b1c3-f3df681c52a8")
-	)
-	(wire
-		(pts
-			(xy 284.48 138.43) (xy 284.48 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8121f3e3-ca38-4e76-8761-7bc7fdca0961")
 	)
 	(wire
 		(pts
@@ -9512,16 +9854,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 171.45) (xy 281.94 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97548bda-53c5-4d6c-8d3e-2205d6a23911")
-	)
-	(wire
-		(pts
 			(xy 226.06 166.37) (xy 228.6 166.37)
 		)
 		(stroke
@@ -9539,16 +9871,6 @@
 			(type default)
 		)
 		(uuid "9803831f-a230-4733-9f14-3ee6c5a09943")
-	)
-	(wire
-		(pts
-			(xy 284.48 180.34) (xy 284.48 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98784634-3c0b-4dec-be3f-d078e7cc2028")
 	)
 	(wire
 		(pts
@@ -9592,7 +9914,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 171.45) (xy 214.63 151.13)
+			(xy 214.63 151.13) (xy 214.63 176.53)
 		)
 		(stroke
 			(width 0)
@@ -9749,6 +10071,16 @@
 			(type default)
 		)
 		(uuid "a4d8de28-fdb4-46d0-8166-af9e113e509c")
+	)
+	(wire
+		(pts
+			(xy 214.63 143.51) (xy 256.54 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4edbaff-7dbf-4ba7-b4e1-9f4dd82f6af3")
 	)
 	(wire
 		(pts
@@ -10098,7 +10430,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "be05c582-55de-4d03-8596-a3efe2e2a3f4")
+		(uuid "bdeebcd1-6c73-4afe-a5af-4121f5778dc7")
 	)
 	(wire
 		(pts
@@ -10179,16 +10511,6 @@
 			(type default)
 		)
 		(uuid "c86ed519-b85e-41e1-969a-a283fee1f809")
-	)
-	(wire
-		(pts
-			(xy 254 176.53) (xy 254 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c87a72cd-86e5-4bfd-a5d6-c649fddc1de1")
 	)
 	(wire
 		(pts
@@ -10362,6 +10684,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 143.51) (xy 284.48 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40b58ab-6452-4ed8-b0a7-fc1aa83a2422")
+	)
+	(wire
+		(pts
 			(xy 295.91 100.33) (xy 295.91 105.41)
 		)
 		(stroke
@@ -10389,16 +10721,6 @@
 			(type default)
 		)
 		(uuid "d4cab491-d82a-4d59-a12f-f6acfe1b3d19")
-	)
-	(wire
-		(pts
-			(xy 254 143.51) (xy 254 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d537777a-bc54-4f54-80fd-288a7783e58c")
 	)
 	(wire
 		(pts
@@ -10439,6 +10761,16 @@
 			(type default)
 		)
 		(uuid "d922faa3-267b-4a05-9f74-b1dbc7c76ee9")
+	)
+	(wire
+		(pts
+			(xy 214.63 143.51) (xy 214.63 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da208553-d26b-49af-bef1-91e33b8a776e")
 	)
 	(wire
 		(pts
@@ -10812,7 +11144,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 191.77) (xy 254 191.77)
+			(xy 226.06 191.77) (xy 252.73 191.77)
 		)
 		(stroke
 			(width 0)
@@ -17676,7 +18008,7 @@
 				)
 			)
 		)
-		(property "Value" "12v Mornsun URB2412LD-30WR3"
+		(property "Value" "12v Mornsun URB2412LD-50WR3"
 			(at 269.24 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17686,7 +18018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER_JTDxxxxxxx_THT"
+		(property "Footprint" "My Footprints:urb 50w dc-dc"
 			(at 269.24 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -17697,7 +18029,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mornsun-power.com/html/pdf/URB2412LD-30WR3.html"
+		(property "Datasheet" "https://www.xppower.com/portals/0/pdfs/SF_JTD20.pdf"
 			(at 266.192 145.542 0)
 			(hide yes)
 			(show_name no)
@@ -17708,7 +18040,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Isolated 20W 4:1 input DC/DC converter module, 9-36V input voltage, ±5V output voltage, DIP"
 			(at 266.827 145.542 0)
 			(hide yes)
 			(show_name no)
@@ -19046,6 +19378,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Mornsun_URB_1")
 		(lib_id "My Symbols:Mornsun_URB")
 		(at 269.24 138.43 0)
 		(unit 1)
@@ -19067,7 +19400,7 @@
 				)
 			)
 		)
-		(property "Value" "3v3 Mornsun URB4803LD-20WR3"
+		(property "Value" "3v3 Mornsun URB2403LD-20WR3"
 			(at 269.24 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19088,7 +19421,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mornsun-power.com/html/pdf/URB4803LD-20WR3.html"
+		(property "Datasheet" "https://www.xppower.com/portals/0/pdfs/SF_JTD20.pdf"
 			(at 266.192 112.522 0)
 			(hide yes)
 			(show_name no)
@@ -19099,7 +19432,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Isolated 20W 4:1 input DC/DC converter module, 9-36V input voltage, ±5V output voltage, DIP"
 			(at 266.827 112.522 0)
 			(hide yes)
 			(show_name no)
