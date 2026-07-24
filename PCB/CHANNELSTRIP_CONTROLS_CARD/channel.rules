@@ -1,0 +1,110 @@
+
+(rules PCB channel
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 46)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 13.7)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.1)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 12.9)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 200.0)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND /K7A /K7B "unconnected-(SW23-Pin_4-PadD)" /A8 /B8 "Net-(J27-Pin_1)" +5V
+    "Net-(J23-Pin_1)" "LED_CL" "LED_LATCH" "LED_BRIGHT_PWM" /A5 /B5 "Net-(U8-QB)" /B2
+    /K10A /K10B /K10S "unconnected-(U6-GPB7-Pad4)" +3.3V "unconnected-(U6-NC-Pad7)" "KNOB_I2C_CL" "KNOB_I2C_DA"
+    "unconnected-(U6-NC-Pad10)" "ADDR_MSB" "unconnected-(U6-INTB-Pad15)" "unconnected-(U6-INTA-Pad16)" /K6A /K6B /K6S /K8A
+    /K8B "unconnected-(U6-GPA7-Pad24)" /K8S /K9A /K9B /K9S "LED_DA" "Net-(U9-QD)"
+    /B12 "Net-(J24-Pin_1)" "Net-(J22-Pin_1)" /A7 /B7 /K4S /K5A /K5B
+    "unconnected-(U5-GPB7-Pad4)" "unconnected-(U5-NC-Pad7)" "unconnected-(U5-NC-Pad10)" "unconnected-(U5-INTB-Pad15)" "unconnected-(U5-INTA-Pad16)" /K1A /K1B /K1S
+    /K2A /K2B /K2S /K3A "unconnected-(U5-GPA7-Pad24)" /K3B /K3S /K4A
+    /K4B "Net-(U8-QH)" /A9 /B9 "DISP_BRIGHT_PWM" +2V8 "DISP_A0" "DISP_SPI_CL"
+    "DISP_CS" "DISP_TE" "DISP_RST" "DISP_SPI_MOSI" "Net-(U8-QF)" /B6 "Net-(U8-QE)" /A3
+    /B3 "unconnected-(SW22-Pin_4-PadD)" /A6 "Net-(U9-QF)" /B14 "Net-(J21-Pin_1)" "Net-(U8-QG)" "Net-(U9-QB)"
+    "Net-(U9-QC)" "Net-(U9-QE)" "unconnected-(U9-QG-Pad6)" "unconnected-(U9-QH-Pad7)" "OUT_LED_CAS" "Net-(U8-QH')" "Net-(U9-QA)" /A2
+    /A1 /B1 "Net-(J20-Pin_1)" "Net-(J25-Pin_1)" +3.3VA "FADER_ADC" GNDA "MOT_A_DIR"
+    "MOT_B_DIR" "Net-(F1-Pin_4)" "Net-(J29-Pin_1)" "Net-(U8-QD)" /B4 /B11 "Net-(U8-QC)" "Net-(J19-Pin_1)"
+    "FADER_TOUCH" "Net-(U8-QA)" "Net-(J18-Pin_1)" /B13 /A4 /B10 /A12 /A13
+    /A14 "unconnected-(U4-GPB7-Pad4)" "unconnected-(U4-NC-Pad7)" "unconnected-(U4-NC-Pad10)" "unconnected-(U4-INTB-Pad15)" "unconnected-(U4-INTA-Pad16)" "unconnected-(U4-GPA7-Pad24)" /A10
+    /A11 +10V
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)

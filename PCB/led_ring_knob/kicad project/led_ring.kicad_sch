@@ -1045,7 +1045,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DATA:\n1 = SERIAL IN\n2 = CLK\n3 = LATCH ENABLE\n4 = OUTPUT ENABLE\n5 = SERIAL OUT (Cascade)"
+	(text "DATA:\n1 = SERIAL IN\n2 = CLK\n3 = LATCH ENABLE\n4 = OUTPUT ENABLE"
 		(exclude_from_sim no)
 		(at 53.086 49.784 0)
 		(effects
