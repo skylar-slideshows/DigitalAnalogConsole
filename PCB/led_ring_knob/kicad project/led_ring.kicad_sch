@@ -654,310 +654,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x05_Pin_1_1"
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1360,7 +1056,7 @@
 		)
 		(uuid "b1b6a625-becb-4a32-9f01-bdcebc00f6f6")
 	)
-	(text "POW:\n1 = GND\n2 = GND\n3 = 5V\n4 = 5V"
+	(text "POW:\n1 = SERIAL OUT (CASCADE)\n2 = GND\n3 = 5V\n4 = 5V"
 		(exclude_from_sim no)
 		(at 82.042 49.276 0)
 		(effects
@@ -1370,12 +1066,6 @@
 			(justify left)
 		)
 		(uuid "e236fd4f-8eb7-4724-a519-ac5039893e8a")
-	)
-	(junction
-		(at 85.09 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12db72f5-d002-42ef-901f-c5dc55c4abc9")
 	)
 	(junction
 		(at 248.92 111.76)
@@ -1394,6 +1084,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d12b368-f2bb-48e3-8266-ef626b4b26d3")
+	)
+	(junction
+		(at 69.85 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20d1ab6e-cab1-4d14-89db-c3851f1be466")
 	)
 	(junction
 		(at 73.66 121.92)
@@ -1540,12 +1236,6 @@
 		(uuid "6a8d53c4-1232-4b30-b72b-b6b6dbb9dd4a")
 	)
 	(junction
-		(at 87.63 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c758310-71c3-48ee-b55a-eaefe730f1cc")
-	)
-	(junction
 		(at 132.08 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1636,6 +1326,12 @@
 		(uuid "b9ef416c-0454-4ca8-929a-2d86cf24f1d7")
 	)
 	(junction
+		(at 85.09 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5bc3460-7b85-4fb9-bc5d-d9f7355b3003")
+	)
+	(junction
 		(at 190.5 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1676,12 +1372,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed4f7b1d-bb18-4a9c-87f4-c5e957304fad")
-	)
-	(junction
-		(at 69.85 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f579cfcb-2412-4c29-b75f-331fa5796d2f")
 	)
 	(junction
 		(at 138.43 101.6)
@@ -1771,16 +1461,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 96.52) (xy 62.23 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b983783-0dcd-4392-a0a4-7e4c0ce5a1e6")
-	)
-	(wire
-		(pts
 			(xy 241.3 114.3) (xy 248.92 114.3)
 		)
 		(stroke
@@ -1818,6 +1498,16 @@
 			(type default)
 		)
 		(uuid "1205f79b-aea1-48e8-8be3-22ad6e84c913")
+	)
+	(wire
+		(pts
+			(xy 69.85 99.06) (xy 76.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fe0e9b-4a2b-4dc1-8c02-0d3314e04f1c")
 	)
 	(wire
 		(pts
@@ -1921,16 +1611,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 76.2) (xy 82.55 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d425998-0af6-4214-86e6-65197d14a97f")
-	)
-	(wire
-		(pts
 			(xy 138.43 101.6) (xy 138.43 114.3)
 		)
 		(stroke
@@ -1951,7 +1631,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 68.58) (xy 87.63 76.2)
+			(xy 87.63 68.58) (xy 87.63 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1978,6 +1658,16 @@
 			(type default)
 		)
 		(uuid "2260e10d-2610-4acd-a624-a6fc853760ba")
+	)
+	(wire
+		(pts
+			(xy 82.55 68.58) (xy 82.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a702b9-5087-464f-a295-71e2daf7935a")
 	)
 	(wire
 		(pts
@@ -2231,16 +1921,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 68.58) (xy 69.85 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ff5b4d-fdac-4323-9b3a-d400fa796e1e")
-	)
-	(wire
-		(pts
 			(xy 16.51 121.92) (xy 24.13 121.92)
 		)
 		(stroke
@@ -2321,16 +2001,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 72.39 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46f4a0bc-8a7f-480d-961b-857e76e1c431")
-	)
-	(wire
-		(pts
 			(xy 58.42 124.46) (xy 54.61 124.46)
 		)
 		(stroke
@@ -2358,16 +2028,6 @@
 			(type default)
 		)
 		(uuid "483d28b7-9c7d-41a2-b0b7-b376453e81ef")
-	)
-	(wire
-		(pts
-			(xy 64.77 92.71) (xy 64.77 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aa9a534-99d8-4632-8233-19585df92c8a")
 	)
 	(wire
 		(pts
@@ -2418,16 +2078,6 @@
 			(type default)
 		)
 		(uuid "55ae03b2-0ea4-4b68-aea6-edab7e5a53d6")
-	)
-	(wire
-		(pts
-			(xy 62.23 96.52) (xy 62.23 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "566242bd-7964-47c7-bc10-4e0fdd61e3cd")
 	)
 	(wire
 		(pts
@@ -2571,16 +2221,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 76.2) (xy 87.63 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69829e53-10c4-4895-8cf3-03a24b938209")
-	)
-	(wire
-		(pts
 			(xy 190.5 119.38) (xy 190.5 121.92)
 		)
 		(stroke
@@ -2628,6 +2268,16 @@
 			(type default)
 		)
 		(uuid "6e23df46-e4a8-409c-ad18-8ca37e712e12")
+	)
+	(wire
+		(pts
+			(xy 69.85 68.58) (xy 69.85 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714a16d3-b1eb-4018-b479-cfa7676a60be")
 	)
 	(wire
 		(pts
@@ -2681,6 +2331,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 68.58) (xy 90.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "799e3df0-5abd-4bce-888e-e470a3bd5f1e")
+	)
+	(wire
+		(pts
 			(xy 16.51 121.92) (xy 16.51 92.71)
 		)
 		(stroke
@@ -2688,16 +2348,6 @@
 			(type default)
 		)
 		(uuid "7b8c18a8-8f24-4745-a4d6-c69e7053e3bb")
-	)
-	(wire
-		(pts
-			(xy 87.63 76.2) (xy 87.63 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bc561c1-3947-44dc-bca0-77e0bd4facc9")
 	)
 	(wire
 		(pts
@@ -2931,7 +2581,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 99.06) (xy 69.85 99.06)
+			(xy 17.78 99.06) (xy 69.85 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2991,13 +2641,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 99.06) (xy 17.78 99.06)
+			(xy 67.31 68.58) (xy 67.31 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fa03a94-53ee-45f7-8ffd-d7765e4533d7")
+		(uuid "a092e0ec-3663-4275-bb24-18489ef5030d")
 	)
 	(wire
 		(pts
@@ -3071,6 +2721,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 96.52) (xy 254 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98f88b6-a113-4081-a37f-d2aa50f9d417")
+	)
+	(wire
+		(pts
 			(xy 102.87 106.68) (xy 105.41 106.68)
 		)
 		(stroke
@@ -3121,16 +2781,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 68.58) (xy 90.17 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d3176f-b3b0-4cad-9fff-7bb45d4c0b7d")
-	)
-	(wire
-		(pts
 			(xy 248.92 114.3) (xy 248.92 116.84)
 		)
 		(stroke
@@ -3168,16 +2818,6 @@
 			(type default)
 		)
 		(uuid "b37abf6e-d2f8-481a-a16d-7a896f082501")
-	)
-	(wire
-		(pts
-			(xy 67.31 93.98) (xy 67.31 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4fab4a3-8d63-458a-a526-87e561a11612")
 	)
 	(wire
 		(pts
@@ -3441,6 +3081,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 76.2) (xy 85.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffd4407-3355-4855-8e68-ea4bcf2f31a7")
+	)
+	(wire
+		(pts
 			(xy 248.92 111.76) (xy 248.92 114.3)
 		)
 		(stroke
@@ -3448,6 +3098,16 @@
 			(type default)
 		)
 		(uuid "d3154c63-e2fd-423e-8ef8-c5e366304f0a")
+	)
+	(wire
+		(pts
+			(xy 64.77 68.58) (xy 64.77 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68a49cd-5bce-45eb-a920-ad99b1789f2c")
 	)
 	(wire
 		(pts
@@ -3521,13 +3181,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 76.2) (xy 82.55 68.58)
+			(xy 72.39 68.58) (xy 72.39 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd59a08d-97c9-48db-a0df-2b1f7c5a371e")
+		(uuid "ddf69285-dad2-446b-a59f-5c5dbeeb19a4")
 	)
 	(wire
 		(pts
@@ -3568,6 +3228,16 @@
 			(type default)
 		)
 		(uuid "e0619ccb-c002-4849-b7d4-6d858bbd7995")
+	)
+	(wire
+		(pts
+			(xy 85.09 76.2) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13f8e47-d977-44a6-89fa-5e09a9a4f4d6")
 	)
 	(wire
 		(pts
@@ -3741,16 +3411,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 76.2) (xy 85.09 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2fe4861-c996-4d1d-89a4-48126b3a0bc1")
-	)
-	(wire
-		(pts
 			(xy 82.55 143.51) (xy 140.97 143.51)
 		)
 		(stroke
@@ -3850,7 +3510,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 112.014 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3893,7 +3553,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 109.22 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -3984,7 +3644,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 179.07 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4075,7 +3735,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 120.65 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4122,7 +3782,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 53.594 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4165,7 +3825,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 50.8 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -4212,7 +3872,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 228.854 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4255,7 +3915,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 226.06 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -4302,7 +3962,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 170.434 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4005,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 167.64 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -4436,7 +4096,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 120.65 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4483,7 +4143,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 228.854 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4526,7 +4186,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 226.06 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -4617,7 +4277,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 62.23 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4664,7 +4324,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 112.014 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4707,7 +4367,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 109.22 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -4798,7 +4458,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 62.23 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5024,7 +4684,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 179.07 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5071,7 +4731,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 53.594 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5114,7 +4774,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 50.8 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -5205,7 +4865,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 237.49 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5387,7 +5047,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 53.594 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,7 +5090,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 50.8 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -5521,7 +5181,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 237.49 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5612,7 +5272,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 179.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5703,7 +5363,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 179.07 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5750,7 +5410,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 53.594 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,7 +5453,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 50.8 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -5884,7 +5544,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 237.49 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5975,7 +5635,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 237.49 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6022,7 +5682,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 112.014 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6065,7 +5725,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 109.22 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -6156,7 +5816,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 62.23 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6247,7 +5907,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 62.23 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6294,7 +5954,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 228.854 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6337,7 +5997,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 226.06 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -6384,7 +6044,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 228.854 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6427,7 +6087,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 226.06 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -6518,7 +6178,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 120.65 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6565,7 +6225,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 228.854 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,7 +6268,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 226.06 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -6699,7 +6359,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 120.65 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6746,7 +6406,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 53.594 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6789,7 +6449,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 50.8 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -6880,7 +6540,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 237.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6927,7 +6587,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 112.014 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6970,7 +6630,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 109.22 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -7061,7 +6721,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 120.65 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7088,8 +6748,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 67.31 63.5 270)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 69.85 63.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7100,7 +6760,7 @@
 		(fields_autoplaced yes)
 		(uuid "87229b3a-850d-4eca-b77c-a788d2ded3e8")
 		(property "Reference" "J1"
-			(at 67.31 58.42 90)
+			(at 68.58 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7110,7 +6770,7 @@
 			)
 		)
 		(property "Value" "DATA"
-			(at 67.31 60.96 90)
+			(at 68.58 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7119,8 +6779,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 67.31 63.5 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 69.85 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7131,7 +6791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 63.5 0)
+			(at 69.85 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7141,8 +6801,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 67.31 63.5 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 69.85 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,7 +6813,7 @@
 			)
 		)
 		(property "LCSC" "C5116483"
-			(at 67.31 63.5 90)
+			(at 69.85 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7174,9 +6834,6 @@
 		)
 		(pin "1"
 			(uuid "6783f312-4364-41fa-b9b3-cbc8ef2f5d1c")
-		)
-		(pin "5"
-			(uuid "090ca887-3280-4ee8-9c11-0e2411ac3623")
 		)
 		(instances
 			(project "led_ring"
@@ -7387,7 +7044,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 237.49 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7434,7 +7091,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 170.434 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7477,7 +7134,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 167.64 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -7568,7 +7225,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 237.49 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7615,7 +7272,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 228.854 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7658,7 +7315,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 226.06 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -7705,7 +7362,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 170.434 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7748,7 +7405,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 167.64 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -7930,7 +7587,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 112.014 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7973,7 +7630,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 109.22 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -8020,7 +7677,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 53.594 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8063,7 +7720,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 50.8 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -8154,7 +7811,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 120.65 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8245,7 +7902,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 179.07 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8336,7 +7993,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 179.07 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8427,7 +8084,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 62.23 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8518,7 +8175,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 179.07 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8565,7 +8222,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 53.594 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8608,7 +8265,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 50.8 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -8655,7 +8312,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 53.594 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8698,7 +8355,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 50.8 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -8745,7 +8402,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 170.434 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8788,7 +8445,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 167.64 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -8976,7 +8633,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 120.65 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9023,7 +8680,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 112.014 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9066,7 +8723,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 109.22 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -9113,7 +8770,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 170.434 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9156,7 +8813,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 167.64 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -9203,7 +8860,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 170.434 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9246,7 +8903,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 167.64 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -9337,7 +8994,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 179.07 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9384,7 +9041,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 228.854 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9427,7 +9084,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 226.06 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -9518,7 +9175,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 237.49 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9565,7 +9222,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 112.014 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9608,7 +9265,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 109.22 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -9699,7 +9356,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 62.23 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9746,7 +9403,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 170.434 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9789,7 +9446,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 167.64 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -9880,7 +9537,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 120.65 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9971,7 +9628,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 62.23 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10018,7 +9675,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 228.854 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10061,7 +9718,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 226.06 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -10108,7 +9765,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 112.014 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10151,7 +9808,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 109.22 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -10242,7 +9899,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6768746"
+		(property "LCSC" "C52675959"
 			(at 62.23 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10289,7 +9946,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "470"
 			(at 170.434 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10332,7 +9989,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C295802"
 			(at 167.64 119.38 90)
 			(hide yes)
 			(show_name no)

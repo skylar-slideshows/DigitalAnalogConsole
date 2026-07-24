@@ -1,0 +1,103 @@
+
+(rules PCB led_ring
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 61)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 200.0)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(J2-Pin_3)" "Net-(D1-K)" "Net-(U2-QF)" "Net-(D14-A)" "Net-(U2-QH)" "Net-(D16-A)" "Net-(D19-A)" "Net-(D28-A)"
+    "Net-(D12-A)" "Net-(U3-QB)" "Net-(D18-A)" "Net-(U3-QF)" "Net-(D22-A)" "Net-(D15-A)" "Net-(D8-A)" "Net-(U1-QC)"
+    "Net-(D3-A)" "Net-(U4-QG)" "Net-(D31-A)" "Net-(D7-A)" "Net-(D25-A)" "Net-(D32-A)" "Net-(D27-A)" "Net-(D23-A)"
+    "Net-(D4-A)" "Net-(U3-QC)" "Net-(D21-A)" "Net-(D6-A)" "Net-(U4-QC)" "Net-(D17-A)" "Net-(U4-QH)" "Net-(U1-QG)"
+    "Net-(U2-QG)" "Net-(U4-QA)" "Net-(U1-QH)" "Net-(D10-A)" "Net-(D9-A)" "Net-(U1-QE)" "Net-(D5-A)" "Net-(D29-A)"
+    "Net-(U3-QH)" "Net-(D24-A)" "Net-(U1-QB)" "Net-(D2-A)" "Net-(U1-QD)" "Net-(U4-QD)" "Net-(D1-A)" "Net-(U2-QD)"
+    "Net-(U3-QD)" "Net-(D20-A)" "Net-(D30-A)" "Net-(U1-QF)" "Net-(U1-QA)" "Net-(U2-QA)" "Net-(U2-QB)" "Net-(U3-QG)"
+    "Net-(D13-A)" "Net-(U4-QB)" "Net-(D26-A)" "Net-(U3-QE)" "Net-(U4-QF)" "Net-(D11-A)" "Net-(U4-QE)" "Net-(U2-QE)"
+    "Net-(U3-QA)" "Net-(U2-QC)" "Net-(U1-QH')" "Net-(J1-Pin_2)" "Net-(J1-Pin_3)" "Net-(J1-Pin_4)" "Net-(J1-Pin_1)" "Net-(U2-QH')"
+    "Net-(U3-QH')" "Net-(J2-Pin_1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
